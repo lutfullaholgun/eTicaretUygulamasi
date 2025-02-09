@@ -1,7 +1,12 @@
+using eTicaretUygulamasi.DataAccessLayer;
+using Microsoft.EntityFrameworkCore;
+using System;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
@@ -20,10 +25,13 @@ app.UseAuthorization();
 
 app.MapStaticAssets();
 
+//app.MapControllerRoute(
+//    name: "admin",
+//    pattern: "{area:exists}/{controller=Main}/{action=Index}/{id?}"
+//);
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
-
 
 app.Run();
