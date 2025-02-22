@@ -11,25 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUI", "WebUI", "{4CBBDB69
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTicaretUygulamasi", "eTicaretUygulamasi\eTicaretUygulamasi.csproj", "{C8646E9C-B963-4303-BD25-9313850B5544}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "eTicaretUygulamasi.EntityLayer", "eTicaretUygulamasi.EntityLayer", "{AB8B09F4-6E39-4A3B-B5C4-8DF61DB13B25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTicaretUygulamasi.DataAccessLayer", "eTicaretUygulamasi.DataAccessLayer\eTicaretUygulamasi.DataAccessLayer.csproj", "{C2CF386D-1DFC-48BE-9CAC-B786D94F8509}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{2DA83D97-2C6D-4493-B695-B1F7D0B7E372}"
-	ProjectSection(SolutionItems) = preProject
-		AppUser.cs = AppUser.cs
-		Author.cs = Author.cs
-		Category.cs = Category.cs
-		Contact.cs = Contact.cs
-		News.cs = News.cs
-		Product.cs = Product.cs
-		Slider.cs = Slider.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{42D281B1-D7FF-4836-803E-E6127A3481C8}"
-	ProjectSection(SolutionItems) = preProject
-		IEntity.cs = IEntity.cs
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTicaretUygulamasi.EntityLayer", "eTicaretUygulamasi.EntityLayer\eTicaretUygulamasi.EntityLayer.csproj", "{37BE5503-A7FA-462F-86A6-AAA299C87F7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTicaretUygulamasi.EntityLayer", "eTicaretUygulamasi.EntityLayer2\eTicaretUygulamasi.EntityLayer.csproj", "{1BD26B46-ADDB-4A30-8291-3B0DA028257F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,19 +25,21 @@ Global
 		{C8646E9C-B963-4303-BD25-9313850B5544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8646E9C-B963-4303-BD25-9313850B5544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8646E9C-B963-4303-BD25-9313850B5544}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37BE5503-A7FA-462F-86A6-AAA299C87F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37BE5503-A7FA-462F-86A6-AAA299C87F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37BE5503-A7FA-462F-86A6-AAA299C87F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37BE5503-A7FA-462F-86A6-AAA299C87F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2CF386D-1DFC-48BE-9CAC-B786D94F8509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CF386D-1DFC-48BE-9CAC-B786D94F8509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CF386D-1DFC-48BE-9CAC-B786D94F8509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CF386D-1DFC-48BE-9CAC-B786D94F8509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD26B46-ADDB-4A30-8291-3B0DA028257F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD26B46-ADDB-4A30-8291-3B0DA028257F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD26B46-ADDB-4A30-8291-3B0DA028257F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD26B46-ADDB-4A30-8291-3B0DA028257F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C8646E9C-B963-4303-BD25-9313850B5544} = {4CBBDB69-1277-4D5C-9114-1004BE3D454B}
-		{AB8B09F4-6E39-4A3B-B5C4-8DF61DB13B25} = {043A168F-FC05-4243-98F5-0FB9F45854FB}
-		{2DA83D97-2C6D-4493-B695-B1F7D0B7E372} = {AB8B09F4-6E39-4A3B-B5C4-8DF61DB13B25}
-		{42D281B1-D7FF-4836-803E-E6127A3481C8} = {AB8B09F4-6E39-4A3B-B5C4-8DF61DB13B25}
-		{37BE5503-A7FA-462F-86A6-AAA299C87F7D} = {AB8B09F4-6E39-4A3B-B5C4-8DF61DB13B25}
+		{C2CF386D-1DFC-48BE-9CAC-B786D94F8509} = {AC3CDB99-4D26-4A2B-8FF7-C1871382052B}
+		{1BD26B46-ADDB-4A30-8291-3B0DA028257F} = {043A168F-FC05-4243-98F5-0FB9F45854FB}
 	EndGlobalSection
 EndGlobal
