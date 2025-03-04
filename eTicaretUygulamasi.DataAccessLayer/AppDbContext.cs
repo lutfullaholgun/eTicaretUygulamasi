@@ -1,4 +1,5 @@
-﻿using eTicaretUygulamasi.EntityLayer.Entities;
+﻿using eTicaretUygulamasi.EntityLayer;
+using eTicaretUygulamasi.EntityLayer.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using System.Collections.Generic;

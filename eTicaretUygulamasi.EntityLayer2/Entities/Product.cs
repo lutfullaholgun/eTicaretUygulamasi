@@ -2,6 +2,7 @@
 using eTicaretUygulamasi.EntityLayer.Interface;
 
 namespace eTicaretUygulamasi.EntityLayer.Entities
+{
     public class Product : IEntity
     {
         public int Id { get; set; }

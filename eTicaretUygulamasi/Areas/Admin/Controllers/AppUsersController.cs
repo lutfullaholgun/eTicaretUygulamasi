@@ -1,4 +1,5 @@
 ﻿using eTicaretUygulamasi.DataAccessLayer;
+using eTicaretUygulamasi.EntityLayer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;

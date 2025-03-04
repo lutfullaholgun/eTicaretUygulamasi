@@ -1,6 +1,5 @@
 using System.Diagnostics;
 using eTicaretUygulamasi.Models;
-using eTicaretUygulamasi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace eTicaretUygulamasi.Controllers
